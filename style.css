@@ -1,0 +1,212 @@
+#main{
+	background-color:white;
+	width:960px;
+	margin:auto;
+	position:relative;
+	min-width: 450px;
+	max-width:960px;
+}
+
+
+#Introduction,#History,#NationalFlags,#InternationalMaritimeSignalFlags p{
+	padding-left:15px; 
+}
+
+#navbar ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	float:right;
+}
+
+#navbar {
+	background-color:#5D2C2C;
+	width:100%;
+	position: relative;
+	top: 0;
+	margin-top: 10px;
+	padding-top:5px;
+	padding-bottom:25px;
+}
+
+#navbar li{
+	display: inline;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size:18px;
+}
+#navbar li a{
+	color: #bfbfbf;
+}
+
+#navbar ul ul {
+	display: none;
+}
+
+
+
+
+
+
+#flags {
+	
+	padding-top: 25px;
+	padding-left:15px;
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/70-flags.png");
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+#FlagImages3x4{
+	position: relative;
+    overflow: auto;
+    display: inline-block;
+    background-image: url(https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/420x370-box.png);
+    margin: 10px;
+    padding: 30px;
+    float: right;
+    display: inline-block;
+    background-repeat: no-repeat;
+
+
+}
+
+#NationalFlags{
+	background-image: url("https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/3-flags75.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	
+}
+
+#NationalFlags p,ul,li{
+	padding-right: 25px;
+}
+
+
+#NationalFlags li{
+	margin-left:5px;
+	margin-right: 350px;
+}
+
+#NationalFlags p{
+	margin-right:400px;
+}
+
+
+#InternationalMaritimeSignalFlags {
+
+}
+
+
+#InternationalMaritimeSignalFlags ul,li{
+	margin-left:10px;
+}
+
+
+#youtube {
+	position: relative;
+    overflow: auto;
+    display: inline-block;
+    background-image: url(https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/460x320-box.png);
+    
+    margin: 10px;
+    padding: 30px;
+    
+    float: right;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-bottom:50px;
+    font-size:10px;
+    text-align:center;
+
+}
+
+#youtubeText {
+	position:relative;
+}
+
+
+
+#MaritimeSignalsLetters,#MaritimeSignalsNumbers{
+	display:inline-block;
+	margin-left: 25px;
+	margin-right:55px;
+}
+
+
+#MaritimeSignalsLetters h2, #MaritimeSignalsNumber h2{
+	margin-right:25px;
+}
+.grid,.gridNo p{
+	font-family: "Palatino Linotype";
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+
+
+
+.grid,.gridNo{
+	float:left;
+	margin-left:10px;
+}
+.grid,.gridNo p{
+	text-align: left;
+}
+
+
+.grid img{
+	border-style:solid;
+	border-width:0.1px;
+	display: inline-block;
+}
+
+
+#End{
+	 float:right; 
+}
+
+
+hr {
+	background-color:#5D2C2C;
+	height: 10px;
+	width:100%;
+}
+
+#content {
+	background-color: #808080;
+}
+
+
+
+
+h2{
+	margin-left: 25px;
+	color: 	#808080;
+	font-family: "Lucida Sans Unicode";
+	padding-left: 10px;
+	text-align: left;
+}
+
+h2:before{
+	content: url(https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/12-dkgrey.png);
+	display:inline;
+
+}
+
+h3{
+	margin-left:0px;
+	color: 	#808080;
+	font-family: "Lucida Sans Unicode";
+	text-align:left;
+}
+
+h3:before{
+	content: url(https://internal.cs.ncl.ac.uk/modules/2016-17/csc1026/flags/css/8-dkgrey.png);
+}
+
+body{
+	background-color:#808080;
+}
